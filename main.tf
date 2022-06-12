@@ -1,5 +1,5 @@
 variable project_id {
-  default = "<your-project-id>"
+  default = "four-keys-sample-353112"
 }
 
 terraform {
@@ -56,7 +56,7 @@ resource "google_bigquery_dataset" "source__github" {
 
   dataset_id                 = "source__github"
   delete_contents_on_destroy = false
-  location                   = "asia-northeast1	"
+  location                   = "asia-northeast1"
   project = var.project_id
 }
 
