@@ -1,5 +1,5 @@
 variable project_id {
-  default = "four-keys-sample-353112"
+  default = "<your-project-id>"
 }
 
 terraform {
